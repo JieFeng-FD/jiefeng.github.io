@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html class="no-js">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>One Page Resume</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { width: 180px; float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 8px 0px; position: relative; }
+        h3 { font-size: 20px; margin: 0 0 16px 0px; position: relative;}
+        #year { background-color: CornflowerBlue; color: white; font-weight:bold;white-space:pre }
+        #unit { font-weight:normal; color: darkblue; font-weight:bold;}
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #self { width: 800px; float: none; line-height: 1.3}
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 20px; text-align: left; padding: 0 26px 0 0; width: 100px; float: left; height: 100px; border-right: 1px solid #999;color:black  }
+        #yearpaper { background-color: darkred; color: white; font-weight:bold;white-space:pre ;}
+        #PDF { border-radius:7px; background-color: CornflowerBlue; color: white; font-weight:bold;white-space:pre ;}
+        dd { width: 650px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+
+        #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+        }
+ 	#myBtn:hover {
+  	background-color: #555;
+	}
+
+     </style>
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div id="page-wrap">
+    
+        <img src="./images/JF.jpg" alt="Photo of JieFeng" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Jie Feng</h1>
+        
+            <p style="font-size:20px;font-weight:bold">
+	  	Research Fellow</br>
+		<a href="http://weather.ou.edu/~map/index.html#home"><span style="color:darkred">Multi-scale data Assimilation and Predictability (MAP) Lab</br></span></a>
+		<a href="https://meteorology.ou.edu/"><span style="color:darkred">School of Meteorology, University of Oklahoma</br></span></a>
+                Email: <a class="email" href="*"><span style="color:darkred">jie.feng@ou.edu</span></a>
+            </p>
+        </div>
+                
+        <div id="self">
+            <p style="font-style: italic; font-size: 20px; font-family: Georgia">  My doctoral research (advisor Dr. Jianping Li) developed a dynamically unstable perturbation method, i.e., the nonlinear local Lyapunov vectors (NLLVs), and extended their applications to the ensemble initialization. </p>
+            <p style="font-style: italic; font-size: 20px; font-family: Georgia">  After Ph.D., I earned high marks in the proposal submitted to National Research Council (NRC, U.S.) and was offered an NRC Research Associate. My post-doctoral research in collaboration with Dr. Zoltan Toth at Global System Division (GSD)/NOAA developed a statistical analysis and forecast error (SAFE) estimation method for the grid-point error estimation. </p>
+            <p style="font-style: italic; font-size: 20px; font-family: Georgia">  I am currently working as a research fellow in Dr. Xuguang Wang's group at the University of Oklahoma. The recent research involves studying the impact of assimilating novel observations and increasing model resolution configuration on hurricane analysis and prediction. My ongoing research includes the development of the localized particle filters and the multi-scale localization scheme for ensemble-based data assimilation. </p>
+        </div>
+
+        <div class="clear"></div>
+ 
+        <!-- Links to sections of this page-->
+	<div>
+           <h3>
+	   <a href="#Research" class="mytabs" style="background-color: Darkgreen; color: white; white-space:pre; font-size:22px">  Research highlights  </a>
+           <a href="#publications" class="mytabs" style="background-color: Darkgreen; color: white; white-space:pre; font-size:22px">  Publications  </a>
+           <a href="#keynote" class="mytabs" style="background-color: Darkgreen; color: white; white-space:pre; font-size:22px">  Presentations  </a>
+	   </h3>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2><span id="year"> 2010-2015 </span> Ph.D. <a href="http://www.iap.cas.cn/"><span id="unit"> Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China</span></a></h2>
+                <p style="font-size:20px"><strong>Major:</strong> Atmospheric Sciences<br> </p>
+            </dd>
+
+            <dd>
+                <h2><span id="year"> 2006-2010 </span> B.S. <a href="http://cas.nuist.edu.cn/"><span id="unit"> School of Atmospheric Sciences, Nanjing University of Information Science & Technology, Nanjing, China</span></a></h2>
+                <p style="font-size:20px"><strong>Major:</strong> Atmospheric Sciences<br />
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Employment</dt>
+            <dd>
+                <h2><span id="year"> 2020-Present </span> Research Fellow, <a href="https://meteorology.ou.edu/"><span id="unit"> School of Meteorology, the University of Oklahoma, Norman, OK.</span></a></h2>
+                <p></p>
+                <h2><span id="year"> 2017-2020 </span> Post-doctoral Research Associate, <a href="https://meteorology.ou.edu/"><span id="unit"> School of Meteorology, the University of Oklahoma, Norman, OK.</span></a></h2>
+                <p></p>
+
+                <h2><span id="year"> 2015-2017 </span> National Research Council Research Associate, <a href="https://www.esrl.noaa.gov/gsd/"><span id="unit"> Global Systems Division, NOAA/OAR/ESRL, Boulder, CO.</span></a></h2>
+                <p></p>
+                
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Research interests</dt>
+            <dd>
+                <h2>Nonlinear error growth and predictability<span></span></h2>
+                <ul style="font-size: 20px">
+                    <li>Nonlinear local Lyapunov exponents and vectors</li>
+                    <li>Chaotic attractor dynamics</li>
+                    <li>Atmospheric predictability limit</li>
+                </ul>
+                
+                <h2>Ensemble forecasting<span></span></h2>
+                <ul style="font-size: 20px">
+                    <li>Generation of initial ensemble perturbations</li>
+                    <li>Error estimation</li>
+                    <li>New algorithm of ensemble central tendency</li>
+                </ul> 
+
+                <h2>Data assimilation<span></span></h2>
+                <ul style="font-size: 20px">
+                    <li>Estimation of static background error variance</li>
+                    <li>Data impact of noval types of observations</li>
+                    <li>Ensemble variational data assimilation for HWRF</li>
+	            <li>Localized particle filter</li>
+                    <li>Multi-scale localization</li>
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <a name="Research"><dt>Research highlights</dt></a>
+
+	    <dd>
+                <h2 style="color: darkblue">Error Growth Dynamics & Ensemble Forecasting<span></span></h2>
+                    <p style="font-size: 18px; text-align: justify">The Nonlinear Local Lyapunov Vectors (NLLV) were extensively developed from the classic Bred Vectors (BV) widely applied to the ensemble initialization in operation and research such as the NCEP global ensemble forecast system. The NLLVs are flow-dependent, dynamically-conditioned, and growing-type orthogonal perturbations. Numerical experiments reveal that they can span a higher-dimensional unstable subspace of local perturbations and better indicate the spatial error growth than the BVs (<a href="./papers/2018-1.pdf"><span style="color:blue"><i>Feng et al. 2018</i></span></a>). These favorable properties prompted us to explore its application to the ensemble initialization (<i><a href="./papers/2014-1.pdf"><span style="color:blue">Feng et al. 2014,</span></a> <a href="./papers/2016-1.pdf"><span style="color:blue">2016</span></a></i>). The implementation in complex (e.g., WRF, ZC) models is being investigated and developed. </p>
+		<div style="width: 700px; height: 420px; overflow: hidden">
+		<img style="position:relative; top:-10px" src="./images/NLLVs.gif" alt="This is my animated image" height="500" width="666.7">
+		</div>
+		<p style="text-align: center; font-size:14px">Animation of instability of 500-hPa geopotential height captured by NLLVs in a QG model</p>
+	    </dd>
+
+	    <dd style="position:relative; top:30px;">
+                <h2 style="color: darkblue">Chaotic Attractor Dynamics & Atmospheric Predictability Limit<span></span></h2>
+                    <p style="font-size: 18px; text-align: justify">The Global and Local Attractor Radii (GAR and LAR) are introduced to measure the geometric properties of attractors. The quantitative relationships between GAR and LAR are calculated, and are found closely related to the chaotic error saturation behavior. GAR and LAR thus can provide objective criteria to measure the global and local predictability limits of atmospheric attractors (<i><a href="./papers/2018-4.pdf"><span style="color:blue">Li et al. 2018</span></a></i>). The LAR can also be applied to the estimation of control and ensemble mean forecast errors (<i><a href="./papers/2019-2.pdf"><span style="color:blue">Feng et al. 2019</span></a></i>).</p>
+		<img src="./images/scatter.png" style="display:block; margin-left:auto; margin-right:auto" alt="Attractor Radius" height="500" width="500">
+		<p style="text-align: center; position:relative; top:0px; font-size:14px">Distribution of LAR on the x–y plane in the phase space of the Lorenz63 model</p> 
+	    </dd>
+
+	    <dd style="position:relative; top:60px;">
+                <h2 style="color: darkblue">Statistical Analysis & Forecast Error Estimation<span></span></h2>
+                    <p style="font-size: 18px; text-align: justify">A Statistical Analysis and Forecast Error (SAFE) estimation method was developed and extended to the application of point-wise error estimation. The study is of critical importance to a reliable evaluation of the accuracy of analysis fields in data assimilation (DA) and the tuning of initial perturbation amplitude in ensemble forecasting. An initial evaluation in a moderately complex QG model manifests that the SAFE better estimates the distribution and amplitude of analysis error variance than the EnKF (<i><a href="./papers/2017-1.pdf"><span style="color:blue">Feng et al. 2017</span></a></i>). The SAFE was further applied to estimating the analysis error variance of the NCEP operational DA system, providing a valuable reference for the DA system evaluation and advancement (<i><a href="./papers/2019-3"><span style="color:blue">Feng et al. 2019</span></a></i>). </p>
+		<div style="width: 700px; height: 420px; overflow: hidden">
+		<img src="./images/SAFE.png" alt="SAFE" height="650" width="650">
+		</div>
+		<p style="text-align: center; position:relative; top:-90px; font-size:14px">Estimated total (black), growing (red circle) and decaying (blue) analysis error variances of the GFS at NCEP by SAFE-II, and the 6-hr perceived error variance (green) and the estimated analysis error variance (red cross) by SAFE-I, respectively.</p> 
+	    </dd>
+
+	    <dd style="position:relative; top:0px;">
+                <h2 style="color: darkblue">Data Assimilation & Data Impact of Novel Obs<span></span></h2>
+                    <p style="font-size: 18px; text-align: justify"> The ensemble-variational hybrid DA method aims to improve the estimation of background error covariance by using the ensemble-based information, and solves the optimal system state in a variational framework. In a Hurricane WRF analysis/prediction system based on the hybrid DA method, we carried out a series of studies. <i><a href="./papers/2019-11.pdf"><span style="color:blue">Feng and Wang (2019a)</span></a></i> found that the assimilation of novel upper-level dropsonde observations from the Tropical Cyclone Intensity (TCI) field campaign plays a critical role in modulating the hurricane upper-level dynamic and thermodynamic structure in analysis, and has important impact on the intensity and structure forecasts. <i><span style="color:blue">Feng and Wang (2019b)</span></i> demonstrated that improving the model resolution of either the first guess or background ensemble in DA can improve the TC initial intensity and structure but through distinct mechanisms. </p>
+		<div style="width: 700px; height: 420px; overflow: hidden">
+		<img style="position:relative; top:-110px" src="./images/Figure4.png"  alt="This is my TCI figure" height="750" width="750">
+		</div>
+		<p style="text-align: center; position:relative; top:-100px; font-size:14px">Upper-level wind field (a) without and (b) with the TCI dropsonde data assimilated, and (c) the difference</p> 
+	    </dd>
+
+            
+            <dd class="clear"></dd>
+            
+            <a name="publications"><dt>Publications</dt></a>
+            <dd style="font-size: 18px; text-align: justify">
+            <p> <span id="yearpaper"> 2020 </span><strong> Feng, J. </strong>and X. G. Wang*, 2019: Impact of increasing horizontal and vertical resolution of the hurricane WRF model on the analysis and prediction of Hurricane Patricia (2015). Under review, <i>Mon. Wea. Rev.</i>. <span id="PDF"> PDF </span></p>
+            <p> <span id="yearpaper"> 2020 </span><strong> Feng, J. </strong>, J. Zhang, Z. Toth, M. Pena, and S. Ravela, 2020: A New Measure of Ensemble Central Tendency. <i>Wea. Forecasting</i>, 35(3), 879–889. <span id="PDF"><a href="./papers/2020-1.pdf" style="color:white"> PDF </a></span></p>
+            <p> <strong> Feng, J. </strong>, X. G. Wang, and J. Poterjoy, 2020: A comparison of two local moment matching nonlinear filters: local particle filter (LPF) and local nonlinear ensemble transform filter (LNETF). <i>Mon. Wea. Rev.</i>, https://doi.org/10.1175/MWR-D-19-0368.1. <span id="PDF"> PDF </span></p>
+            <p> <strong> Feng, J. *</strong>, Z. Toth, and M. Pena, 2020: Partition of Analysis and Forecast Error Variance into Growing and Decaying Components. <i>Quart. J. Roy. Meteor. Soc.</i>, 146(728), 1302-1321. <span id="PDF"><a href="./papers/2019-3.pdf" style="color:white"> PDF </a></span></p>
+            <p> <span id="yearpaper"> 2019 </span><strong> Feng, J. </strong>and X. G. Wang*, 2019: Impact of assimilating upper-level dropsonde observations collected during the TCI field campaign on the prediction of intensity and structure of Hurricane Patricia (2015), <i>Mon. Wea. Rev.</i>, 147, 3069–3089. <span id="PDF"><a href="./papers/2019-11.pdf" style="color:white"> PDF </a></span></p>
+            <p> <strong> Feng, J.</strong>, J. P. Li*, J. Zhang, D. Q. Liu, and R. Q. Ding, 2019: The relationship between deterministic and ensemble mean forecast errors revealed by global and local attractor radii. <i>Adv. Atmos. Sci.</i>, 36(3), 271–278. <span id="PDF"><a href="./papers/2019-2.pdf" style="color:white"> PDF </a></span></p>
+            <p> <span id="yearpaper"> 2018 </span><strong> Feng, J.</strong>, R. Q. Ding, J. P. Li*, and Z. Toth, 2018: Comparison of nonlinear local Lyapunov vectors and bred vectors in estimating the spatial distribution of error growth. <i>J. Atmos. Sci.</i>, 75, 1073–1087. <span id="PDF"><a href="./papers/2018-1.pdf" style="color:white"> PDF </a></span></p>
+            <p> Hou, Z., Li, J.*, Ding, R.*, Karamperidou, C., Duan, W., Liu, T., & <strong>Feng, J.</strong>, 2018. Asymmetry of the predictability limit of the warm ENSO phase. <i>Geophysical Research Letters</i>, 45.  <span id="PDF"><a href="./papers/2018-2.pdf" style="color:white"> PDF </a></span></p>
+            <p> Zhong, Q., L. Zhang, J. Li, R. Ding*, and <strong>J. Feng</strong>, 2018: Estimating the predictability limit of tropical cyclone tracks over the western North Pacific using observational data. <i>Adv. Atmos. Sci.</i>, in press. <span id="PDF"><a href="./papers/2018-3.pdf" style="color:white"> PDF </a></span></p>
+            <p> Li, J. P.*, <strong>J. Feng</strong>, and R. Q. Ding 2018: Attractor Radius and Global Attractor Radius and their Application to the Quantification of Predictability Limits. <i>Clim. Dyn.</i>, 51, 2359–2374, https://doi.org/10.1007/s00382-017-4017-y. <span id="PDF"><a href="./papers/2018-4.pdf" style="color:white"> PDF </a></span></p>
+            <p> Hou, Z., J. P. Li*, R. Q. Ding and <strong>J. Feng</strong>, 2018: The application of nonlinear local Lyapunov vectors to the Zebiak–Cane model and their performance in ensemble prediction. <i>Clim. Dyn.</i> <span id="PDF"><a href="./papers/2018-5.pdf" style="color:white"> PDF </a></span></p>
+            <p> <span id="yearpaper"> 2017 </span><strong> Feng, J.*</strong>, Z. Toth, and M. Peña, 2017: Spatial Extended Estimates of Analysis and Short-Range Forecast Error Variances. <i>Tellus A</i>, 69:1, 1325301. <span id="PDF"><a href="./papers/2017-1.pdf" style="color:white"> PDF </a></span></p>
+            <p> Huai, X., J. P. Li*, R. Q. Ding, <strong>J. Feng</strong> and D. Q. Liu, 2017: Quantifying local predictability of the Lorenz system using the nonlinear local Lyapunov exponent, <i>Atmospheric and Oceanic Science Letters</i>, 10:5, 372-378. <span id="PDF"><a href="./papers/2017-2.pdf" style="color:white"> PDF </a></span></p>
+            <p> <span id="yearpaper"> 2016 </span><strong> Feng, J.</strong>, R. Q. Ding, J. P. Li* and D. Q. Liu, 2016: Comparison of nonlinear local Lyapunov vectors with bred vectors, random perturbations and ensemble transform Kalman filter strategies in a barotropic model. <i>Adv. Atmos. Sci.</i>, 33(9), 1036–1046. <span id="PDF"><a href="./papers/2016-1.pdf" style="color:white"> PDF </a></span></p>
+            <p> Ding, R. Q., J. P. Li*, F. Zheng, <strong>J. Feng</strong> and D. Q. Liu, 2016: Estimating the limit of decadal-scale climate predictability using observational data. <i>Clim. Dyn.</i>, 46(5), 1563–1580. <span id="PDF"><a href="./papers/2016-2.pdf" style="color:white"> PDF </a></span></p>
+            <p> <span id="yearpaper"> 2015 </span> Liu, D. Q., <strong>J. Feng</strong>, J. P. Li* and J. C. Wang, 2015: The impacts of time-step size and spatial resolution on the prediction skill of the GRAPES-MESO forecast system. <i>Chinese Journal of Atmos. Sci.</i>, 39(6), 1165–1178. <span id="PDF"><a href="./papers/2015-1.pdf" style="color:white"> PDF </a></span></p>
+            <p> Liu, D. Q., R. Q. Ding, J. P. Li* and <strong>J. Feng</strong>, 2015: Preliminary application of the nonlinear local Lyapunov exponent to target observation. <i>Chinese Journal of Atmos. Sci.</i>, 39(2), 329−337. <span id="PDF"><a href="./papers/2015-2.pdf" style="color:white"> PDF </a></span></p>
+            <p> <span id="yearpaper"> 2014 </span><strong> Feng, J.</strong>, R. Q. Ding, D. Q. Liu and J. P. Li*, 2014: The Application of Nonlinear Local Lyapunov Vectors to Ensemble Predictions in the Lorenz Systems. <i>J. Atmos. Sci.</i>, 71, 3554–3567. <span id="PDF"><a href="./papers/2014-1.pdf" style="color:white"> PDF </a></span></p>
+            
+            </dd>
+            <dd class="clear"></dd>
+
+            <a name="keynote"><dt>Presentation</dt></a>
+            <dd style="font-size: 18px; text-align: justify">
+            <p> <span id="yearpaper"> 2019 </span> 99th AMS annual meeting (oral), Jie Feng, A Comparison of Two Variants of Localized Particle Filter, Phoenix, AZ, USA. 7 Jan.        
+            <p> <span id="yearpaper"> 2018 </span> 33rd Conference on Hurricanes and Tropical Meteorology (oral), Jie Feng, Impact of Assimilating Outflow Layer Dropsonde Observations Collected during the TCI Field Campaign on the Prediction of Intensity and Structure of Hurricane Patricia (2015), Ponte Vedra, FL, USA. 19 Apr.</p>
+            <p> <span id="yearpaper"> 2017 </span> 97th AMS annual meeting (oral), Jie Feng, A New Method to Estimate the Impact of Observing System Changes on Predictability, Seattle, WA, USA. 25 Jan.</p>
+            <p> 97th AMS annual meeting (oral), Jie Feng, Assessment and Decomposition of Analysis and Forecast Error Variance into Growing and Decaying Components, Seattle, WA, USA. 26 Jan.       </p>
+            <p> <span id="yearpaper"> 2016 </span> 7th EnKF Data Assimilation Workshop (oral), Jie Feng, Spatially Extended Estimates of Analysis and Short-Range Forecast Error Variances, State College, PA, USA. 23 May.</p>
+            <p> NCEP visit, EMC seminar, Jie Feng, Grid-point Estimates of Analysis and Short-Range Forecast Error Variances, Environmental Modeling Center, NOAA/NWS, College Park, MD, USA. 9 Feb.</p>
+            <p> Informal seminar, discussions (hosted by Prof. Kayo Ide), University of Maryland, College Park, MD, USA. 8 Feb.</p>
+            <p> GSD seminar, Jie Feng, Grid-point Estimates of Analysis and Short-Range Forecast Error Variances, Global Systems Division, NOAA/OAR/ESRL, Boulder, CO, USA. 4 Feb.</p>
+            <p> 96th AMS annual meeting (oral), Jie Feng, Grid-point Estimates of Analysis and Short-Range Forecast Error Variances, New Orleans, LA, USA. 13 Jan.</p>
+            <p> <span id="yearpaper"> 2015 </span> GSD seminar, Jie Feng, Nonlinear Local Lyapunov Vectors and Their Use in Ensemble Forecasting, Global Systems Division, NOAA/OAR/ESRL, Boulder, CO, USA. 8 Oct.</p>
+
+	    </dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+
+</html>
